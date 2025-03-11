@@ -9,7 +9,7 @@ with st.echo():
     code = '''def hello():
         print("hello")'''
 
-    run_btn = st.button("Predict Traffic")
+    run_btn = st.button("Predict Traffics")
     if run_btn:
         st.code(code, language='python')
 
