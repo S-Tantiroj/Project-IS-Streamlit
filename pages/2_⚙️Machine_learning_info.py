@@ -39,7 +39,7 @@ st.write("""
 เราพบว่า **Random Forest** ให้ผลลัพธ์ดีที่สุด ดังนั้นจึงเลือกใช้เป็นโมเดลหลักของเรา
 """)
 
-st.subheader("3. ขั้นตอนการพัฒนาโมเดล (Model Development Steps)")
+st.subheader("3. ขั้นตอนการพัฒนาโมเดล")
 
 st.write("""
 1. **โหลดและล้างข้อมูล** จาก `Salary Data.csv (ซึ่งดาวน์โหลดมาจาก Kaggle)`
