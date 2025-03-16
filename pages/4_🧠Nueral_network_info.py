@@ -46,6 +46,7 @@ st.markdown("""
 4. **เทรนโมเดล** – ใช้ `model.fit()` เทรนโมเดลเป็นเวลา 30 Epochs
 5. **ปรับปรุงโมเดล** – ใช้ `EarlyStopping` และ `ReduceLROnPlateau` เพื่อลด Overfitting
 6. **บันทึกโมเดล** – บันทึกโมเดลในรูปแบบ `.keras` เพื่อใช้งานใน Streamlit
+7. **บันทึกโมเดลลง Google Drive** - เพราะขนาดโมเดลที่ใหญ่เกินจะอัปโหลดขึ้น `github` ได้จึงใช้วิธีฝากไฟล์ไว้ใน [Google Drive](https://drive.google.com/file/d/1VZ6VCg-JqArqnZkiqCLEpAhM0JoWQNCw/view?usp=drive_link) และดึงมาใช้งานบน Streamlit แทน
 """)
 
 
