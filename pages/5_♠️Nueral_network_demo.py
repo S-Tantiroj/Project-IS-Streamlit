@@ -3,6 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 import os
+import gdown
 
 st.set_page_config(
     page_title= "Neural Network Demo",
@@ -13,6 +14,9 @@ st.title("Cards classification")
 st.write("อัปโหลดรูปภาพไพ่")
 
 # โหลดโมเดลที่เทรนไว้
+file_id = "1VZ6VCg-JqArqnZkiqCLEpAhM0JoWQNCw"
+output_path = "Neural_Network/card_classifier.keras"
+gdown.download(f"https://drive.google.com/uc?id={file_id}", output_path, quiet=False)
 model = tf.keras.models.load_model("Neural_Network/card_classifier.keras")
 
 # รายชื่อคลาส (53 ไพ่)
