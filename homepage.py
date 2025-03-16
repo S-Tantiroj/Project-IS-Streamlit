@@ -14,4 +14,4 @@ st.write("ถูกสร้างขึ้นโดยใช้ **Machine Leari
 st.subheader("Card Classifier(CNN)")
 st.write("ถูกสร้างขึ้นโดยใช้ **Convolutional Neural Network (CNN)** เพื่อจำแนกไพ่ 53 ใบ")
 
-st.header("สามารถเข้าไปดูรายละเอียดได้จากเมนูทางด้านซ้าย")
+st.write("สามารถเข้าไปดูรายละเอียดได้จากเมนูทางด้านซ้าย")
