@@ -5,13 +5,11 @@ st.set_page_config(
     page_icon="✍️",
 )
 
-st.title("Main Page")
+st.title("Intellignet System project")
+st.write("โปรเจคสร้างโมเดลด้วย **Machine Learning** และ **Neural Networks** ประกอบไปด้วย:")
 
-if "my_input" not in st.session_state:
-    st.session_state["my_input"] = ""
+st.subheader("Salary Prediction(Machine Learning)")
+st.write("ถูกสร้างขึ้นโดยใช้ **Machine Learing** เพื่อประมาณค่าเงินเดือน")
 
-my_input = st.text_input("Input a text here", st.session_state["my_input"])
-submit = st.button("Submit")
-if submit:
-    st.session_state["my_input"] = my_input
-    st.write("Yo have entered:", my_input)
+st.subheader("Card Classifier(CNN)")
+st.write("ถูกสร้างขึ้นโดยใช้ **Convolutional Neural Network (CNN)** เพื่อจำแนกไพ่ 53 ใบ")
